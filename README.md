@@ -31,7 +31,7 @@ plot(res, what="expl.var") + geom_vline(xintercept=res$lambda[17], linetype="das
 rownames(res$W)[which(res$W[,17]!=0)]
 ```
 
-Toutefois, le code présenté aux RencontresR2021 présente une subtilité. On applique notre méthode `groupsparsewkm`(voir `help(groupsparsewkm)` pour plus de détails) à des groupes de variables trouvés grâce à un clustering de variables effectué avec le package `ClustOfVar` [2]. `ClustOfVar` trouve des groupes de variables mixtes, or notre clustering de données mixtes s'effectue sur des données catégorielles sont recodées par modalités (et non pas sur les variables). Le code qui implémente cette subtilité est disponible dans la "Troisième partie" du fichier "CodeRR2021_SparseKmeansMixData.R".
+Toutefois, le code présenté aux RencontresR2021 présente une subtilité. On applique notre méthode `groupsparsewkm`(voir `help(groupsparsewkm)` pour plus de détails) à des groupes de variables trouvés grâce à un clustering de variables effectué avec le package `ClustOfVar` [2]. `ClustOfVar` trouve des groupes de variables mixtes, or notre clustering de données mixtes s'effectue sur des données catégorielles qui sont recodées par modalités (et non pas sur les variables). Le code qui implémente cette subtilité est disponible dans la "Troisième partie" du fichier "CodeRR2021_SparseKmeansMixData.R".
 
 
 # Références 
