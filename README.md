@@ -35,5 +35,5 @@ Toutefois, le code présenté aux RencontresR2021 présente une subtilité. On a
 
 
 # Références 
-* [1] Chavent, M., Lacaille, J., Mourer, A., Olteanu, M. (2020).Sparse k-means for mixed data viagroup-sparse clustering. In ESANN 2020 proceedings, i6doc.com publ., ISBN 978-2-87587-074-2
-* [2] Chavent, M., Kuentz, V., Liquet B., Saracco, J. (2012), ClustOfVar : An R Package for theClustering of Variables.Journal of Statistical Software50, 1-16
+* [1] Chavent, M., Lacaille, J., Mourer, A., Olteanu, M. (2020). Sparse k-means for mixed data via group-sparse clustering. In ESANN 2020 proceedings, i6doc.com publ., ISBN 978-2-87587-074-2
+* [2] Chavent, M., Kuentz, V., Liquet B., Saracco, J. (2012), ClustOfVar : An R Package for the Clustering of Variables. Journal of Statistical Software50, 1-16
