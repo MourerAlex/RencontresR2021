@@ -1,7 +1,7 @@
 # RencontresR2021
 
 Ce répertoire contient le code qui a été utilisé pour illustrer notre méthode intitulée "Sparse k-means for mixed data via group-sparse
-clustering" [1] lors des RencontresR2021.
+clustering" [1] lors des RencontresR2021. Les slides de la présentation sont disponibles dans l'unique fichier PDF "RR2021".
 
 Des explications plus spécifiques du code et de la méthode sont disponibles dans les vignettes du package R de la méthode:
 https ://cran.r-project.org/web/packages/vimpclust/index.html
